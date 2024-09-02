@@ -1,5 +1,11 @@
 # Notes for Chapter 2 - Data Structures
 
+# Picking the Right Data Structure
+# Lists - go-to solution for storing collection of data, default
+# Sets - faster than lists in some cases
+# Tuples - performance critical, data won't change
+# Dictionaries - complex data, possible additions of data
+
 ## Lists [] - a data structure that contains multiple variables
 
 grocery_list = ["eggs", "milk", "cheese", "pasta"]
@@ -75,3 +81,48 @@ customer3 = {
 
 print(customer1["name"])
 print(customer3["name"])
+
+## Boolean Variables - True/on or False/off
+
+walking = False
+running = True
+
+## Combining Data Structures
+# Multidimensional Lists - Lists of lists
+
+# Daily high and low temperature (in Fahrenheit)
+temps = [
+  [
+    [66, 34],
+    [57, 25],
+    [49, 45],
+    [45, 19],
+    [33, 7],
+    [32, 14],
+    [49, 37]
+  ],
+  [
+    [53, 39],
+    [61, 51],
+    [64, 51],
+    [67, 57],
+    [69, 42],
+    [32, 14],
+    [49, 37]
+  ]
+]
+
+# Day 1 temps
+print(temps[0])
+# Day 2 temps
+print(temps[1])
+# Day 3 temps
+#print(temps[2])
+
+# Day 1 high
+print(temps[0][0])
+# Day 1 low
+print(temps[0][1])
+
+# Week 2 Day 3 low
+print(temps[1][2][1])
