@@ -1,5 +1,11 @@
 # Notes for Chapter 03 - Controlling Program Flow
 
+# To compare values and run coded based off the result use the if statement
+# The for loop can iterate over data structures like lists or run code for
+# a certain number of times with the range statement
+# A while loop allows you to run code until a certain condition is met
+# The break statement allows you to prematurely exit a loop
+
 ## Logical Comparisons
 # if = do something if this condition is met
 # commands need to be indented
@@ -164,3 +170,8 @@ print("Ex: 3.16: Nested Loops")
 for i in range(10):
   for j in range(10):
     print(str(i) +":" + str(j))
+
+# running flag - a variable named running that is initially set to True
+#running = True
+#while running:
+  #Do things 
