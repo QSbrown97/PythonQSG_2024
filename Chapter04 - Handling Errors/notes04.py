@@ -1,4 +1,18 @@
-# Notes for Chapter 04 - Handling Errors
+## Notes for Chapter 04 - Handling Errors
+
+# An exception occurs when an error happens
+# which can be handled with the 'try' statement
+
+# When a problem occurs in the try block, code
+# in the except block is run
+
+# If no error occurs, code in the 'else' blocks
+# is run, but is skipped if something is wrong
+
+# The 'finally' block is executed in either case
+# and is commonly used to restore program's exec-
+# ution to a sane state
+
 
 # Wrapping code in 'try' provides a safety harness against failure
 # The finally statement ensures that code is run even if an error occurs
